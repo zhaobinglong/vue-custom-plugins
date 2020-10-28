@@ -1,0 +1,31 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.log
+
+tests/**/coverage/
+tests/e2e/reports
+selenium-debug.log
+
+# 跟踪模板文件，其他文件不跟踪
+admin/doc/*.docx
+!admin/doc/Template.docx
+
+# 忽略upload文件中上传的所有文件
+admin/upload/*
+!admin/upload/*.md
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.local
+
+package-lock.json
+yarn.lock

@@ -1,8 +1,39 @@
-# vue-plus
-vue项目增强，将通用模块抽象出来，应用到其他项目或者二次开发
+## Getting started
 
-## use
-```javascript
-import confirmDialogRegistry from './plugins/confirmDialog/index'
-Vue.use(confirmDialogRegistry)
+```bash
+# install dependency
+npm install
+
+# develop
+npm run dev
 ```
+
+This will automatically open http://localhost:9527
+
+## Build
+
+```bash
+# build for test environment
+npm run build:stage
+
+# build for production environment
+npm run build:prod
+```
+
+## Advanced
+
+```bash
+# preview the release environment effect
+npm run preview
+
+# preview the release environment effect + static resource analysis
+npm run preview -- --report
+
+# code format check
+npm run lint
+
+# code format check and auto fix
+npm run lint -- --fix
+```
+
+
